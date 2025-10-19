@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "arrowUp"
+  },
+  "options": {},
+  "attributes": {
+    "subheading": {
+      "type": "blocks",
+      "required": true
+    },
+    "heading": {
+      "type": "blocks",
+      "required": true
+    }
+  },
+  "config": {}
+}
