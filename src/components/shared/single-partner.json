@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_single_partners",
+  "info": {
+    "displayName": "Single Partner",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

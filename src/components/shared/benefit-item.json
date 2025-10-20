@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_benefit_items",
+  "info": {
+    "displayName": "Benefit Item",
+    "icon": "feather"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "icon": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

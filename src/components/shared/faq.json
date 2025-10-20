@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_faqs",
+  "info": {
+    "displayName": "FAQ",
+    "icon": "cursor"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "blocks",
+      "required": true
+    },
+    "subheading": {
+      "type": "blocks",
+      "required": true
+    },
+    "faqs": {
+      "type": "component",
+      "component": "shared.single-faq",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

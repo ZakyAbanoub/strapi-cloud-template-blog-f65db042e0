@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_shared_savings",
+  "info": {
+    "displayName": "Saving",
+    "icon": "scissors"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "blocks",
+      "required": true
+    },
+    "subheading": {
+      "type": "blocks",
+      "required": true
+    },
+    "points": {
+      "type": "component",
+      "component": "shared.point",
+      "repeatable": true
+    },
+    "cta": {
+      "type": "component",
+      "component": "shared.cta",
+      "repeatable": false,
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "kpi": {
+      "type": "component",
+      "component": "shared.kpi",
+      "repeatable": false,
+      "required": true
+    }
+  },
+  "config": {}
+}

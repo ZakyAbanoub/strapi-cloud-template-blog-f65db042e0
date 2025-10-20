@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_shared_contact_uses",
+  "info": {
+    "displayName": "Contact Us",
+    "icon": "phone"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "blocks",
+      "required": true
+    },
+    "subheading": {
+      "type": "blocks",
+      "required": true
+    },
+    "contactMethods": {
+      "type": "component",
+      "component": "shared.single-contact-method",
+      "repeatable": true,
+      "required": true
+    },
+    "officeHours": {
+      "type": "component",
+      "component": "shared.office-hours",
+      "repeatable": true
+    },
+    "trustedPartners": {
+      "type": "component",
+      "component": "shared.trusted-partners",
+      "repeatable": false,
+      "required": true
+    }
+  },
+  "config": {}
+}

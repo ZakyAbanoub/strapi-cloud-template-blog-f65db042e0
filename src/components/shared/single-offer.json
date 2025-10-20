@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_single_offers",
+  "info": {
+    "displayName": "Single Offer",
+    "icon": "music"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_trusted_partners",
+  "info": {
+    "displayName": "Trusted Partners",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "tagline": {
+      "type": "string",
+      "required": true
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "items": {
+      "type": "component",
+      "component": "shared.single-partner",
+      "repeatable": true,
+      "required": true
+    },
+    "note": {
+      "type": "text",
+      "required": true
+    }
+  },
+  "config": {}
+}

@@ -1,26 +1,26 @@
 {
-  "collectionName": "components_shared_heroes",
+  "collectionName": "components_shared_start_savings",
   "info": {
-    "displayName": "Hero",
-    "icon": "arrowUp"
+    "displayName": "Start Saving",
+    "icon": "seed"
   },
   "options": {},
   "attributes": {
-    "heading": {
-      "type": "blocks",
-      "required": true
-    },
-    "subheading": {
-      "type": "blocks",
-      "required": true
-    },
     "image": {
       "type": "media",
-      "multiple": false,
+      "multiple": true,
       "required": true,
       "allowedTypes": [
         "images"
       ]
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "subheading": {
+      "type": "text",
+      "required": true
     },
     "cta": {
       "type": "component",

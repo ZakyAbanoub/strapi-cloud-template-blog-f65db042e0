@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_benefits",
+  "info": {
+    "displayName": "Benefits",
+    "icon": "thumbUp"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "subheading": {
+      "type": "string",
+      "required": true
+    },
+    "benefits": {
+      "type": "component",
+      "component": "shared.benefit-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

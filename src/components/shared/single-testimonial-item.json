@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_shared_single_testimonial_items",
+  "info": {
+    "displayName": "Single Testimonial item",
+    "icon": "handHeart"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "handle": {
+      "type": "string",
+      "required": false
+    },
+    "quote": {
+      "type": "string",
+      "required": true
+    },
+    "socialImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

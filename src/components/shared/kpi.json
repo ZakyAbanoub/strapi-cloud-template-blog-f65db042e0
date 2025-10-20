@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_kpis",
+  "info": {
+    "displayName": "KPI",
+    "icon": "crown"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

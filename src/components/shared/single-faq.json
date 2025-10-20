@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_single_faqs",
+  "info": {
+    "displayName": "Single FAQ",
+    "icon": "magic"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "question": {
+      "type": "string",
+      "required": true
+    },
+    "answer": {
+      "type": "text",
+      "required": true
+    }
+  },
+  "config": {}
+}
