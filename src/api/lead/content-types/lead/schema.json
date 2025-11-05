@@ -44,10 +44,10 @@
       "customField": "plugin::multi-select.multi-select",
       "default": "[]",
       "options": [
-        "mobilePlans",
-        "homeInternet",
-        "tv",
-        "homeSecurity"
+        "Mobile Plans:mobilePlans",
+        "Home Internet:homeInternet",
+        "TV:tv",
+        "Home Security:homeSecurity"
       ]
     }
   }

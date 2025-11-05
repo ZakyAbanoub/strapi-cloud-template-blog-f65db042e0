@@ -476,7 +476,12 @@ export interface ApiLeadLead extends Struct.CollectionTypeSchema {
     services: Schema.Attribute.JSON &
       Schema.Attribute.CustomField<
         'plugin::multi-select.multi-select',
-        ['mobilePlans', 'homeInternet', 'tv', 'homeSecurity']
+        [
+          'Mobile Plans:mobilePlans',
+          'Home Internet:homeInternet',
+          'TV:tv',
+          'Home Security:homeSecurity',
+        ]
       > &
       Schema.Attribute.DefaultTo<'[]'>;
     updatedAt: Schema.Attribute.DateTime;
