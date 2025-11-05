@@ -23,17 +23,6 @@
       "type": "string",
       "required": true
     },
-    "services": {
-      "type": "enumeration",
-      "required": true,
-      "default": "mobilePlans",
-      "enum": [
-        "mobilePlans",
-        "homeInternet",
-        "tv",
-        "homeSecurity"
-      ]
-    },
     "currentProvider": {
       "type": "string",
       "required": true
@@ -49,6 +38,17 @@
     "agreedToTerms": {
       "type": "boolean",
       "required": true
+    },
+    "services": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "default": "[]",
+      "options": [
+        "mobilePlans",
+        "homeInternet",
+        "tv",
+        "homeSecurity"
+      ]
     }
   }
 }

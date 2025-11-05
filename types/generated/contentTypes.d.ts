@@ -473,11 +473,12 @@ export interface ApiLeadLead extends Struct.CollectionTypeSchema {
     phone: Schema.Attribute.String & Schema.Attribute.Required;
     postalCode: Schema.Attribute.String & Schema.Attribute.Required;
     publishedAt: Schema.Attribute.DateTime;
-    services: Schema.Attribute.Enumeration<
-      ['mobilePlans', 'homeInternet', 'tv', 'homeSecurity']
-    > &
-      Schema.Attribute.Required &
-      Schema.Attribute.DefaultTo<'mobilePlans'>;
+    services: Schema.Attribute.JSON &
+      Schema.Attribute.CustomField<
+        'plugin::multi-select.multi-select',
+        ['mobilePlans', 'homeInternet', 'tv', 'homeSecurity']
+      > &
+      Schema.Attribute.DefaultTo<'[]'>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
