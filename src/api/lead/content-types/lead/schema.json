@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "leads",
+  "info": {
+    "singularName": "lead",
+    "pluralName": "leads",
+    "displayName": "Lead"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fullName": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "services": {
+      "type": "enumeration",
+      "required": true,
+      "default": "mobilePlans",
+      "enum": [
+        "mobilePlans",
+        "homeInternet",
+        "tv",
+        "homeSecurity"
+      ]
+    },
+    "currentProvider": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "postalCode": {
+      "type": "string",
+      "required": true
+    },
+    "agreedToTerms": {
+      "type": "boolean",
+      "required": true
+    }
+  }
+}
